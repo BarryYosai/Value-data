@@ -1,0 +1,22 @@
+# 使用 Python 官方镜像
+FROM python:3.9-slim
+
+# 设置工作目录
+WORKDIR /app/src
+
+# 复制 src 目录到容器
+COPY src /app/src
+
+# 安装依赖
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+# 设置环境变量
+ENV FLASK_APP=app.py
+ENV FLASK_ENV=production
+
+# 暴露 Flask 默认端口
+EXPOSE 5000
+
+# 默认启动 Flask 应用
+CMD ["python", "app.py"]

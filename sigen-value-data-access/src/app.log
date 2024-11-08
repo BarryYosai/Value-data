@@ -1,0 +1,430 @@
+2024-11-04 17:20:09,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.49.96:5000
+2024-11-04 17:20:09,832 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 17:20:09,839 - INFO -  * Restarting with stat
+2024-11-04 17:20:10,939 - WARNING -  * Debugger is active!
+2024-11-04 17:20:10,942 - INFO -  * Debugger PIN: 133-062-065
+2024-11-04 17:23:58,401 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.49.96:5000
+2024-11-04 17:23:58,402 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 17:23:58,408 - INFO -  * Restarting with stat
+2024-11-04 17:23:59,472 - WARNING -  * Debugger is active!
+2024-11-04 17:23:59,475 - INFO -  * Debugger PIN: 133-062-065
+2024-11-04 17:35:38,641 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.1.49.96:5000
+2024-11-04 17:35:38,641 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 17:35:38,647 - INFO -  * Restarting with stat
+2024-11-04 17:35:39,755 - WARNING -  * Debugger is active!
+2024-11-04 17:35:39,759 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 10:57:36,155 - INFO -  * Restarting with stat
+2024-11-05 10:57:37,223 - WARNING -  * Debugger is active!
+2024-11-05 10:57:37,225 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 10:57:37,414 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 10:57:37,416 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 10:59:36,058 - INFO -  * Restarting with stat
+2024-11-05 10:59:37,064 - WARNING -  * Debugger is active!
+2024-11-05 10:59:37,067 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 10:59:37,229 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 10:59:37,231 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:12:45,166 - INFO -  * Restarting with stat
+2024-11-05 11:12:46,181 - WARNING -  * Debugger is active!
+2024-11-05 11:12:46,183 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:12:46,352 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:12:46,354 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:20:11,012 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 11:20:11,450 - INFO -  * Restarting with stat
+2024-11-05 11:20:12,900 - WARNING -  * Debugger is active!
+2024-11-05 11:20:12,902 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:20:13,068 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:20:13,071 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:21:23,493 - INFO -  * Restarting with stat
+2024-11-05 11:21:24,492 - WARNING -  * Debugger is active!
+2024-11-05 11:21:24,496 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:21:24,655 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:21:24,657 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:24:48,372 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 11:24:48,553 - INFO -  * Restarting with stat
+2024-11-05 11:24:49,717 - WARNING -  * Debugger is active!
+2024-11-05 11:24:49,720 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:24:49,876 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:24:49,877 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:25:25,408 - INFO -  * Restarting with stat
+2024-11-05 11:25:26,613 - WARNING -  * Debugger is active!
+2024-11-05 11:25:26,615 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:25:26,775 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:25:26,777 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:28:51,616 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 11:28:51,813 - INFO -  * Restarting with stat
+2024-11-05 11:28:52,904 - WARNING -  * Debugger is active!
+2024-11-05 11:28:52,907 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:28:53,064 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:28:53,080 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:34:25,531 - INFO -  * Restarting with stat
+2024-11-05 11:34:26,989 - WARNING -  * Debugger is active!
+2024-11-05 11:34:26,992 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:34:27,169 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:34:27,171 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:35:22,264 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 11:35:22,436 - INFO -  * Restarting with stat
+2024-11-05 11:35:23,509 - WARNING -  * Debugger is active!
+2024-11-05 11:35:23,512 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:35:23,681 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:35:23,683 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:36:05,946 - INFO -  * Restarting with stat
+2024-11-05 11:36:06,955 - WARNING -  * Debugger is active!
+2024-11-05 11:36:06,958 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:36:07,130 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:36:07,132 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:37:21,851 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 11:37:22,482 - INFO -  * Restarting with stat
+2024-11-05 11:37:24,151 - WARNING -  * Debugger is active!
+2024-11-05 11:37:24,157 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:37:24,359 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:37:24,361 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:37:36,817 - INFO -  * Restarting with stat
+2024-11-05 11:37:37,820 - WARNING -  * Debugger is active!
+2024-11-05 11:37:37,824 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:37:37,984 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:37:38,001 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 11:38:38,836 - INFO -  * Restarting with stat
+2024-11-05 11:38:39,933 - WARNING -  * Debugger is active!
+2024-11-05 11:38:39,935 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 11:38:40,097 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 11:38:40,099 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 12:04:54,721 - INFO -  * Restarting with stat
+2024-11-05 12:04:55,732 - WARNING -  * Debugger is active!
+2024-11-05 12:04:55,734 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 12:04:55,890 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 12:04:55,892 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:42:43,065 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 13:42:43,292 - INFO -  * Restarting with stat
+2024-11-05 13:42:44,628 - WARNING -  * Debugger is active!
+2024-11-05 13:42:44,631 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:42:44,792 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:42:44,794 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:43:08,244 - INFO -  * Restarting with stat
+2024-11-05 13:43:09,293 - WARNING -  * Debugger is active!
+2024-11-05 13:43:09,295 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:43:09,457 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:43:09,459 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:45:35,091 - INFO -  * Restarting with stat
+2024-11-05 13:45:36,134 - WARNING -  * Debugger is active!
+2024-11-05 13:45:36,138 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:45:36,323 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:45:36,325 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:52:09,789 - INFO -  * Restarting with stat
+2024-11-05 13:52:10,835 - WARNING -  * Debugger is active!
+2024-11-05 13:52:10,837 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:52:11,017 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:52:11,019 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:54:42,260 - INFO -  * Restarting with stat
+2024-11-05 13:54:43,594 - WARNING -  * Debugger is active!
+2024-11-05 13:54:43,597 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:54:43,761 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:54:43,763 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:58:24,731 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 13:58:24,870 - INFO -  * Restarting with stat
+2024-11-05 13:58:25,984 - WARNING -  * Debugger is active!
+2024-11-05 13:58:25,990 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:58:26,194 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:58:26,196 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:59:26,825 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\¼ÛÖµÊý¾Ý¹éµµ\\src\\app.py', reloading
+2024-11-05 13:59:26,996 - INFO -  * Restarting with stat
+2024-11-05 13:59:28,192 - WARNING -  * Debugger is active!
+2024-11-05 13:59:28,195 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:59:28,425 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:59:28,429 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 13:59:53,328 - INFO -  * Restarting with stat
+2024-11-05 13:59:54,521 - WARNING -  * Debugger is active!
+2024-11-05 13:59:54,524 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 13:59:54,701 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 13:59:54,704 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 14:03:33,481 - INFO -  * Restarting with stat
+2024-11-05 14:03:34,540 - WARNING -  * Debugger is active!
+2024-11-05 14:03:34,543 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 14:03:34,710 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 14:03:34,712 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 14:14:02,845 - INFO -  * Restarting with stat
+2024-11-05 14:14:03,895 - WARNING -  * Debugger is active!
+2024-11-05 14:14:03,898 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 14:14:04,077 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 14:14:04,082 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 14:17:05,925 - INFO -  * Restarting with stat
+2024-11-05 14:17:06,910 - WARNING -  * Debugger is active!
+2024-11-05 14:17:06,913 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 14:17:07,088 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 14:17:07,089 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 14:24:04,937 - INFO -  * Restarting with stat
+2024-11-05 14:24:05,936 - WARNING -  * Debugger is active!
+2024-11-05 14:24:05,939 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 14:24:06,098 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 14:24:06,100 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 15:23:52,854 - WARNING -  * Debugger is active!
+2024-11-05 15:23:52,859 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 15:23:53,120 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 15:23:53,122 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 15:25:17,553 - INFO -  * Restarting with stat
+2024-11-05 15:25:18,643 - WARNING -  * Debugger is active!
+2024-11-05 15:25:18,645 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 15:25:18,826 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 15:25:18,828 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 15:26:36,620 - INFO -  * Restarting with stat
+2024-11-05 15:26:37,635 - WARNING -  * Debugger is active!
+2024-11-05 15:26:37,639 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 15:26:37,817 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 15:26:37,818 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 15:43:52,695 - INFO -  * Restarting with stat
+2024-11-05 15:43:53,746 - WARNING -  * Debugger is active!
+2024-11-05 15:43:53,750 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 15:43:53,949 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 15:43:53,951 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 15:50:08,470 - INFO -  * Restarting with stat
+2024-11-05 15:50:09,530 - WARNING -  * Debugger is active!
+2024-11-05 15:50:09,532 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 15:50:09,699 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 15:50:09,700 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 15:52:53,938 - INFO -  * Restarting with stat
+2024-11-05 15:52:55,173 - WARNING -  * Debugger is active!
+2024-11-05 15:52:55,176 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 15:52:55,359 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 15:52:55,361 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 15:54:46,263 - INFO -  * Restarting with stat
+2024-11-05 15:54:47,380 - WARNING -  * Debugger is active!
+2024-11-05 15:54:47,384 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 15:54:47,584 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 15:54:47,586 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-05 16:12:54,500 - INFO -  * Restarting with stat
+2024-11-05 16:12:55,569 - WARNING -  * Debugger is active!
+2024-11-05 16:12:55,572 - INFO -  * Debugger PIN: 133-062-065
+2024-11-05 16:12:55,761 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-05 16:12:55,762 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 10:04:17,952 - INFO -  * Restarting with stat
+2024-11-08 10:04:19,124 - WARNING -  * Debugger is active!
+2024-11-08 10:04:19,127 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 10:04:19,256 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 10:04:19,258 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 10:12:15,272 - INFO -  * Restarting with stat
+2024-11-08 10:12:16,296 - WARNING -  * Debugger is active!
+2024-11-08 10:12:16,298 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 10:12:16,415 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 10:12:16,416 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 10:14:47,758 - INFO -  * Restarting with stat
+2024-11-08 10:14:48,914 - WARNING -  * Debugger is active!
+2024-11-08 10:14:48,916 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 10:14:49,044 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 10:14:49,046 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 10:47:49,823 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\sigen-value-data-access\\src\\initial_archive.py', reloading
+2024-11-08 10:47:50,089 - INFO -  * Restarting with stat
+2024-11-08 10:47:52,495 - WARNING -  * Debugger is active!
+2024-11-08 10:47:52,497 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 10:47:52,636 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 10:47:52,640 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 10:48:03,308 - INFO -  * Restarting with stat
+2024-11-08 10:48:04,309 - WARNING -  * Debugger is active!
+2024-11-08 10:48:04,311 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 10:48:04,428 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 10:48:04,431 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 10:59:45,698 - INFO -  * Restarting with stat
+2024-11-08 10:59:46,695 - WARNING -  * Debugger is active!
+2024-11-08 10:59:46,697 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 10:59:46,813 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 10:59:46,815 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 11:40:52,048 - INFO -  * Restarting with stat
+2024-11-08 11:40:53,104 - WARNING -  * Debugger is active!
+2024-11-08 11:40:53,106 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 11:40:53,220 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 11:40:53,222 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 11:43:41,034 - INFO -  * Restarting with stat
+2024-11-08 11:43:42,367 - WARNING -  * Debugger is active!
+2024-11-08 11:43:42,369 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 11:43:42,526 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 11:43:42,531 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 11:51:23,466 - INFO -  * Detected change in 'C:\\Users\\100783\\PycharmProjects\\sigen-value-data-access\\src\\initial_archive.py', reloading
+2024-11-08 11:51:23,888 - INFO -  * Restarting with stat
+2024-11-08 11:51:25,093 - WARNING -  * Debugger is active!
+2024-11-08 11:51:25,095 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 11:51:25,211 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 11:51:25,213 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 12:03:56,025 - INFO -  * Restarting with stat
+2024-11-08 12:03:57,090 - WARNING -  * Debugger is active!
+2024-11-08 12:03:57,094 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 12:03:57,215 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 12:03:57,216 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 13:42:37,474 - INFO -  * Restarting with stat
+2024-11-08 13:42:38,522 - WARNING -  * Debugger is active!
+2024-11-08 13:42:38,526 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 13:42:38,643 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 13:42:38,645 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 15:07:03,133 - INFO -  * Restarting with stat
+2024-11-08 15:07:04,197 - WARNING -  * Debugger is active!
+2024-11-08 15:07:04,203 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 15:07:04,324 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 15:07:04,326 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 15:07:13,913 - INFO - 10.1.49.96 - - [08/Nov/2024 15:07:13] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:07:17,343 - INFO - 10.1.49.96 - - [08/Nov/2024 15:07:17] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:07:29,859 - INFO - 10.1.49.96 - - [08/Nov/2024 15:07:29] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:07:42,273 - INFO - Starting to fetch archive data
+2024-11-08 15:07:42,815 - INFO - Found 19 subdirectories
+2024-11-08 15:07:42,815 - INFO - Attempting to read config file: sigen_ai.device_scheduling_strategy_execute_record/config.txt
+2024-11-08 15:07:42,931 - INFO - Successfully processed config for sigen_ai.device_scheduling_strategy_execute_record
+2024-11-08 15:07:42,931 - INFO - Attempting to read config file: sigen_ai.electricity_price_prediction/config.txt
+2024-11-08 15:07:43,054 - INFO - Successfully processed config for sigen_ai.electricity_price_prediction
+2024-11-08 15:07:43,055 - INFO - Attempting to read config file: sigen_ai.gb_electricity_price/config.txt
+2024-11-08 15:07:43,174 - INFO - Successfully processed config for sigen_ai.gb_electricity_price
+2024-11-08 15:07:43,175 - INFO - Attempting to read config file: sigen_ai.pv_prediction_history_check/config.txt
+2024-11-08 15:07:43,299 - INFO - Successfully processed config for sigen_ai.pv_prediction_history_check
+2024-11-08 15:07:43,300 - INFO - Attempting to read config file: sigen_ai.station_elec_cost_history/config.txt
+2024-11-08 15:07:43,415 - INFO - Successfully processed config for sigen_ai.station_elec_cost_history
+2024-11-08 15:07:43,415 - INFO - Attempting to read config file: sigen_ai.weather_info/config.txt
+2024-11-08 15:07:43,535 - INFO - Successfully processed config for sigen_ai.weather_info
+2024-11-08 15:07:43,537 - INFO - Attempting to read config file: sigen_device.device_inverter_pcs_statistics_min/config.txt
+2024-11-08 15:07:43,658 - INFO - Successfully processed config for sigen_device.device_inverter_pcs_statistics_min
+2024-11-08 15:07:43,659 - INFO - Attempting to read config file: sigen_device.device_pack_statistics_sec/config.txt
+2024-11-08 15:07:43,781 - INFO - Successfully processed config for sigen_device.device_pack_statistics_sec
+2024-11-08 15:07:43,781 - INFO - Attempting to read config file: sigen_device.device_pack_statistics_sec_test/config.txt
+2024-11-08 15:07:43,896 - INFO - Successfully processed config for sigen_device.device_pack_statistics_sec_test
+2024-11-08 15:07:43,897 - INFO - Attempting to read config file: sigen_device.device_scheduling_strategy_history/config.txt
+2024-11-08 15:07:44,040 - INFO - Successfully processed config for sigen_device.device_scheduling_strategy_history
+2024-11-08 15:07:44,040 - INFO - Attempting to read config file: sigen_device.electricity_price/config.txt
+2024-11-08 15:07:44,166 - INFO - Successfully processed config for sigen_device.electricity_price
+2024-11-08 15:07:44,166 - INFO - Attempting to read config file: sigen_device.manually_electricity_price/config.txt
+2024-11-08 15:07:44,289 - INFO - Successfully processed config for sigen_device.manually_electricity_price
+2024-11-08 15:07:44,289 - INFO - Attempting to read config file: sigen_device.pv_prediction_history/config.txt
+2024-11-08 15:07:44,410 - INFO - Successfully processed config for sigen_device.pv_prediction_history
+2024-11-08 15:07:44,410 - INFO - Attempting to read config file: sigen_device.station_electricity_price/config.txt
+2024-11-08 15:07:44,526 - INFO - Successfully processed config for sigen_device.station_electricity_price
+2024-11-08 15:07:44,526 - INFO - Attempting to read config file: sigen_device.station_statistics_day/config.txt
+2024-11-08 15:07:44,644 - INFO - Successfully processed config for sigen_device.station_statistics_day
+2024-11-08 15:07:44,644 - INFO - Attempting to read config file: sigen_device.station_statistics_hour/config.txt
+2024-11-08 15:07:44,698 - ERROR - Error reading or parsing file sigen_device.station_statistics_hour/config.txt: An error occurred (NoSuchKey) when calling the GetObject operation: The specified key does not exist.
+2024-11-08 15:07:44,698 - WARNING - Failed to read or parse config for sigen_device.station_statistics_hour/
+2024-11-08 15:07:44,698 - INFO - Attempting to read config file: sigen_device.station_statistics_min/config.txt
+2024-11-08 15:07:44,816 - INFO - Successfully processed config for sigen_device.station_statistics_min
+2024-11-08 15:07:44,816 - INFO - Attempting to read config file: sigen_device.station_statistics_month/config.txt
+2024-11-08 15:07:44,941 - INFO - Successfully processed config for sigen_device.station_statistics_month
+2024-11-08 15:07:44,941 - INFO - Attempting to read config file: sigen_device.station_statistics_year/config.txt
+2024-11-08 15:07:45,057 - INFO - Successfully processed config for sigen_device.station_statistics_year
+2024-11-08 15:07:45,057 - INFO - Returning 18 archive records
+2024-11-08 15:07:45,057 - INFO - 10.1.49.96 - - [08/Nov/2024 15:07:45] "GET /get_archive_data HTTP/1.1" 200 -
+2024-11-08 15:08:07,003 - INFO - 10.1.49.96 - - [08/Nov/2024 15:08:07] "OPTIONS /start_archive HTTP/1.1" 200 -
+2024-11-08 15:08:07,029 - INFO - Received start_archive request
+2024-11-08 15:08:07,029 - INFO - Received parameters: table_name=sigen_ai.weather_info, partition_column=dt, selected_columns=dt,left_lon,up_lat,right_lon,down_lat,time_pred,nwp_name,time_zone_name,scheduling_time,record_time,shortwave_radiation_instant,shortwave_radiation,direct_radiation_instant,direct_radiation,direct_normal_irradiance_instant,direct_normal_irradiance,apparent_temperature,temperature_2m,relativehumidity_2m,precipitation,cloudcover,cloudcover_low,cloudcover_high,weather_code
+2024-11-08 15:08:11,600 - INFO - 10.1.49.96 - - [08/Nov/2024 15:08:11] "OPTIONS /start_archive HTTP/1.1" 200 -
+2024-11-08 15:08:11,615 - INFO - Received start_archive request
+2024-11-08 15:08:11,616 - INFO - Received parameters: table_name=sigen_ai.weather_info, partition_column=dt, selected_columns=dt,left_lon,up_lat,right_lon,down_lat,time_pred,nwp_name,time_zone_name,scheduling_time,record_time,shortwave_radiation_instant,shortwave_radiation,direct_radiation_instant,direct_radiation,direct_normal_irradiance_instant,direct_normal_irradiance,apparent_temperature,temperature_2m,relativehumidity_2m,precipitation,cloudcover,cloudcover_low,cloudcover_high,weather_code
+2024-11-08 15:08:43,566 - INFO - Archive process completed successfully
+2024-11-08 15:08:43,568 - INFO - 10.1.49.96 - - [08/Nov/2024 15:08:43] "POST /start_archive HTTP/1.1" 200 -
+2024-11-08 15:08:47,645 - INFO - Archive process completed successfully
+2024-11-08 15:08:47,647 - INFO - 10.1.49.96 - - [08/Nov/2024 15:08:47] "POST /start_archive HTTP/1.1" 200 -
+2024-11-08 15:09:13,743 - INFO - 10.1.49.96 - - [08/Nov/2024 15:09:13] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:09:22,876 - INFO - 10.1.49.96 - - [08/Nov/2024 15:09:22] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:09:56,812 - INFO - 10.1.49.96 - - [08/Nov/2024 15:09:56] "OPTIONS /start_archive HTTP/1.1" 200 -
+2024-11-08 15:09:56,826 - INFO - Received start_archive request
+2024-11-08 15:09:56,827 - INFO - Received parameters: table_name=sigen_device.station_electricity_price, partition_column=dt, selected_columns=dt,station_id,buy_price, sell_price, record_time, statistics_time, elec_price_type
+2024-11-08 15:10:12,636 - ERROR - Error in start_archive: Script execution failed: 'aws' \ufffd\ufffd\ufffd\ufffd\ufffd\u06b2\ufffd\ufffd\ufffd\ufffd\u2cbf\ufffd\ufffd\ufffd\ue8ec\u04b2\ufffd\ufffd\ufffd\u01ff\ufffd\ufffd\ufffd\ufffd§Ö\u0133\ufffd\ufffd\ufffd
+\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u013c\ufffd\ufffd\ufffd
+Traceback (most recent call last):
+  File "C:\Users\100783\PycharmProjects\sigen-value-data-access\src\initial_archive.py", line 238, in <module>
+    archive_table_to_s3(table_name, selected_columns, partition_column)
+  File "C:\Users\100783\PycharmProjects\sigen-value-data-access\src\initial_archive.py", line 215, in archive_table_to_s3
+    create_external_table(cursor, table_name, selected_columns)
+  File "C:\Users\100783\PycharmProjects\sigen-value-data-access\src\initial_archive.py", line 120, in create_external_table
+    col_type = get_column_type(cursor, table_name, col)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\100783\PycharmProjects\sigen-value-data-access\src\initial_archive.py", line 66, in get_column_type
+    raise ValueError(f"ÎÞ·¨ÔÚ±í {table_name} ÖÐÕÒµ½ÁÐ {column_name} µÄÀàÐÍÐÅÏ¢")
+ValueError: ÎÞ·¨ÔÚ±í sigen_device.station_electricity_price ÖÐÕÒµ½ÁÐ  sell_price µÄÀàÐÍÐÅÏ¢
+
+2024-11-08 15:10:12,637 - INFO - 10.1.49.96 - - [08/Nov/2024 15:10:12] "[35m[1mPOST /start_archive HTTP/1.1[0m" 500 -
+2024-11-08 15:11:00,254 - INFO - 10.1.49.96 - - [08/Nov/2024 15:11:00] "OPTIONS /start_archive HTTP/1.1" 200 -
+2024-11-08 15:11:00,255 - INFO - Received start_archive request
+2024-11-08 15:11:00,255 - INFO - Received parameters: table_name=sigen_device.electricity_price, partition_column=dt, selected_columns=dt,area_code,electricity_area_code,record_time,statistics_time,electricity_price,selling_price,provider_name
+2024-11-08 15:11:16,644 - INFO - 10.1.49.96 - - [08/Nov/2024 15:11:16] "OPTIONS /start_archive HTTP/1.1" 200 -
+2024-11-08 15:11:16,648 - INFO - Received start_archive request
+2024-11-08 15:11:16,648 - INFO - Received parameters: table_name=sigen_device.electricity_price, partition_column=dt, selected_columns=dt,area_code,electricity_area_code,record_time,statistics_time,electricity_price,selling_price,provider_name
+2024-11-08 15:11:26,910 - INFO - Archive process completed successfully
+2024-11-08 15:11:26,911 - INFO - 10.1.49.96 - - [08/Nov/2024 15:11:26] "POST /start_archive HTTP/1.1" 200 -
+2024-11-08 15:11:43,388 - INFO - Archive process completed successfully
+2024-11-08 15:11:43,389 - INFO - 10.1.49.96 - - [08/Nov/2024 15:11:43] "POST /start_archive HTTP/1.1" 200 -
+2024-11-08 15:17:41,103 - INFO - 127.0.0.1 - - [08/Nov/2024 15:17:41] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:17:41,197 - INFO - 127.0.0.1 - - [08/Nov/2024 15:17:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 15:19:46,791 - INFO - 10.1.49.96 - - [08/Nov/2024 15:19:46] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:20:20,659 - INFO - 10.1.49.96 - - [08/Nov/2024 15:20:20] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:20:21,003 - INFO - 10.1.49.96 - - [08/Nov/2024 15:20:21] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:22:40,678 - INFO - 10.1.49.96 - - [08/Nov/2024 15:22:40] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:24:53,017 - INFO - 10.1.49.96 - - [08/Nov/2024 15:24:53] "[33mGET /static/sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:24:57,722 - INFO - 10.1.49.96 - - [08/Nov/2024 15:24:57] "[33mGET /static/sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:25:44,602 - INFO - 10.1.49.96 - - [08/Nov/2024 15:25:44] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:26:02,440 - INFO -  * Restarting with stat
+2024-11-08 15:26:03,689 - WARNING -  * Debugger is active!
+2024-11-08 15:26:03,692 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 15:26:03,827 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 15:26:03,829 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)
+2024-11-08 15:26:11,089 - INFO - 10.1.49.96 - - [08/Nov/2024 15:26:11] "[33mGET /static/sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:26:13,424 - INFO - 10.1.49.96 - - [08/Nov/2024 15:26:13] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:28:30,601 - INFO - 10.1.49.96 - - [08/Nov/2024 15:28:30] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:31:59,964 - INFO - 10.1.49.96 - - [08/Nov/2024 15:31:59] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-08 15:32:29,968 - INFO - 127.0.0.1 - - [08/Nov/2024 15:32:29] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:32:33,085 - INFO - 127.0.0.1 - - [08/Nov/2024 15:32:33] "[33mGET /sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:32:33,210 - INFO - 127.0.0.1 - - [08/Nov/2024 15:32:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 15:36:13,874 - INFO - 127.0.0.1 - - [08/Nov/2024 15:36:13] "[33mGET /static/sigen_archive_platform.html HTTP/1.1[0m" 404 -
+2024-11-08 15:36:28,215 - INFO -  * Restarting with stat
+2024-11-08 15:36:29,504 - WARNING -  * Debugger is active!
+2024-11-08 15:36:29,506 - INFO -  * Debugger PIN: 603-500-503
+2024-11-08 15:36:29,641 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-11-08 15:36:29,643 - INFO -  * Running on http://10.1.49.96:5000/ (Press CTRL+C to quit)

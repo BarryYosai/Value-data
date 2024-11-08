@@ -1,0 +1,1817 @@
+INFO:root:启动定时归档任务
+INFO:root:开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：147
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：147
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：103
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：103
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：113
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：113
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：128
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：128
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：147
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：147
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：103
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：103
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：113
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：113
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：128
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：128
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-04 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：147
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：147
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：103
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：103
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：113
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：113
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：128
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：128
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-04 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-04 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：147
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：147
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：103
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：103
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：113
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：113
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：128
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：128
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-04 所有表的归档过程完成
+INFO:root:2024-11-05 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：181
+INFO:root:表 sigen_ai.gb_electricity_price 的当前分区数 181 超过保留天数 180，开始归档
+INFO:root:开始归档表 sigen_ai.gb_electricity_price 的最旧分区
+INFO:root:正在将表 sigen_ai.gb_electricity_price 的最旧分区 2024-05-09 归档到 s3://sigen-starrocks-valued-data-archive/sigen_ai.gb_electricity_price/init/full_data_20241105003011/
+INFO:root:正在从 StarRocks 中删除表 sigen_ai.gb_electricity_price 的已归档分区 2024-05-09
+INFO:root:已成功归档并删除表 sigen_ai.gb_electricity_price 中的分区 2024-05-09
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：148
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：148
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：181
+INFO:root:表 sigen_device.electricity_price 的当前分区数 181 超过保留天数 180，开始归档
+INFO:root:开始归档表 sigen_device.electricity_price 的最旧分区
+INFO:root:正在将表 sigen_device.electricity_price 的最旧分区 2024-05-10 归档到 s3://sigen-starrocks-valued-data-archive/sigen_device.electricity_price/init/full_data_20241105003018/
+INFO:root:正在从 StarRocks 中删除表 sigen_device.electricity_price 的已归档分区 2024-05-10
+INFO:root:已成功归档并删除表 sigen_device.electricity_price 中的分区 2024-05-10
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：181
+INFO:root:表 sigen_device.manually_electricity_price 的当前分区数 181 超过保留天数 180，开始归档
+INFO:root:开始归档表 sigen_device.manually_electricity_price 的最旧分区
+INFO:root:正在将表 sigen_device.manually_electricity_price 的最旧分区 2024-05-06 归档到 s3://sigen-starrocks-valued-data-archive/sigen_device.manually_electricity_price/init/full_data_20241105003019/
+INFO:root:正在从 StarRocks 中删除表 sigen_device.manually_electricity_price 的已归档分区 2024-05-06
+INFO:root:已成功归档并删除表 sigen_device.manually_electricity_price 中的分区 2024-05-06
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：104
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：104
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：114
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：129
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：129
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-05 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-05 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：181
+INFO:root:表 sigen_ai.electricity_price_prediction 的当前分区数 181 超过保留天数 180，开始归档
+INFO:root:开始归档表 sigen_ai.electricity_price_prediction 的最旧分区
+INFO:root:正在将表 sigen_ai.electricity_price_prediction 的最旧分区 2024-05-10 归档到 s3://sigen-starrocks-valued-data-archive/sigen_ai.electricity_price_prediction/init/full_data_20241105105815/
+INFO:root:正在从 StarRocks 中删除表 sigen_ai.electricity_price_prediction 的已归档分区 2024-05-10
+INFO:root:已成功归档并删除表 sigen_ai.electricity_price_prediction 中的分区 2024-05-10
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：181
+INFO:root:表 sigen_ai.weather_info 的当前分区数 181 超过保留天数 180，开始归档
+INFO:root:开始归档表 sigen_ai.weather_info 的最旧分区
+INFO:root:正在将表 sigen_ai.weather_info 的最旧分区 2024-05-16 归档到 s3://sigen-starrocks-valued-data-archive/sigen_ai.weather_info/init/full_data_20241105105818/
+INFO:root:正在从 StarRocks 中删除表 sigen_ai.weather_info 的已归档分区 2024-05-16
+INFO:root:已成功归档并删除表 sigen_ai.weather_info 中的分区 2024-05-16
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：148
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：148
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：104
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：104
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：114
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：129
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：129
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-05 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-05 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：148
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：148
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：104
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：104
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：114
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：129
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：129
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-05 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-05 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：148
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：148
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：104
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：104
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：114
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：129
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：129
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-05 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-05 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：148
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：148
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：104
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：104
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：114
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：129
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：129
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-05 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-05 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：148
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：148
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：104
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：104
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：114
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：129
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：129
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-05 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-05 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：148
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：148
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：104
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：104
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：114
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：129
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：129
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-05 所有表的归档过程完成
+INFO:root:启动定时归档任务
+INFO:root:2024-11-07 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：150
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：150
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：106
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：106
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：116
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：116
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：131
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：131
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-07 所有表的归档过程完成
+INFO:root:2024-11-08 开始归档所有表
+INFO:root:开始获取需要归档的表列表
+INFO:root:获取到的表列表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:待归档的表：['sigen_ai.device_scheduling_strategy_execute_record', 'sigen_ai.electricity_price_prediction', 'sigen_ai.gb_electricity_price', 'sigen_ai.pv_prediction_history_check', 'sigen_ai.station_elec_cost_history', 'sigen_ai.weather_info', 'sigen_device.device_inverter_pcs_statistics_min', 'sigen_device.device_pack_statistics_sec', 'sigen_device.device_pack_statistics_sec_test', 'sigen_device.device_scheduling_strategy_history', 'sigen_device.electricity_price', 'sigen_device.manually_electricity_price', 'sigen_device.pv_prediction_history', 'sigen_device.station_electricity_price', 'sigen_device.station_statistics_day', 'sigen_device.station_statistics_hour', 'sigen_device.station_statistics_min', 'sigen_device.station_statistics_month', 'sigen_device.station_statistics_year']
+INFO:root:开始检查并归档表 sigen_ai.device_scheduling_strategy_execute_record
+INFO:root:正在读取表 sigen_ai.device_scheduling_strategy_execute_record 的配置信息
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.device_scheduling_strategy_execute_record 的分区数量
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 当前的分区数量：180
+INFO:root:表 sigen_ai.device_scheduling_strategy_execute_record 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.electricity_price_prediction
+INFO:root:正在读取表 sigen_ai.electricity_price_prediction 的配置信息
+INFO:root:表 sigen_ai.electricity_price_prediction 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.electricity_price_prediction 的分区数量
+INFO:root:表 sigen_ai.electricity_price_prediction 当前的分区数量：180
+INFO:root:表 sigen_ai.electricity_price_prediction 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.gb_electricity_price
+INFO:root:正在读取表 sigen_ai.gb_electricity_price 的配置信息
+INFO:root:表 sigen_ai.gb_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.gb_electricity_price 的分区数量
+INFO:root:表 sigen_ai.gb_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_ai.gb_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.pv_prediction_history_check
+INFO:root:正在读取表 sigen_ai.pv_prediction_history_check 的配置信息
+INFO:root:表 sigen_ai.pv_prediction_history_check 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.pv_prediction_history_check 的分区数量
+INFO:root:表 sigen_ai.pv_prediction_history_check 当前的分区数量：180
+INFO:root:表 sigen_ai.pv_prediction_history_check 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_ai.station_elec_cost_history
+INFO:root:正在读取表 sigen_ai.station_elec_cost_history 的配置信息
+INFO:root:表 sigen_ai.station_elec_cost_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.station_elec_cost_history 的分区数量
+INFO:root:表 sigen_ai.station_elec_cost_history 当前的分区数量：86
+INFO:root:表 sigen_ai.station_elec_cost_history 归档完成。当前分区数量：86
+INFO:root:开始检查并归档表 sigen_ai.weather_info
+INFO:root:正在读取表 sigen_ai.weather_info 的配置信息
+INFO:root:表 sigen_ai.weather_info 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_ai.weather_info 的分区数量
+INFO:root:表 sigen_ai.weather_info 当前的分区数量：180
+INFO:root:表 sigen_ai.weather_info 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.device_inverter_pcs_statistics_min
+INFO:root:正在读取表 sigen_device.device_inverter_pcs_statistics_min 的配置信息
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_inverter_pcs_statistics_min 的分区数量
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 当前的分区数量：151
+INFO:root:表 sigen_device.device_inverter_pcs_statistics_min 归档完成。当前分区数量：151
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec 当前的分区数量：123
+INFO:root:表 sigen_device.device_pack_statistics_sec 归档完成。当前分区数量：123
+INFO:root:开始检查并归档表 sigen_device.device_pack_statistics_sec_test
+INFO:root:正在读取表 sigen_device.device_pack_statistics_sec_test 的配置信息
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_pack_statistics_sec_test 的分区数量
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 当前的分区数量：114
+INFO:root:表 sigen_device.device_pack_statistics_sec_test 归档完成。当前分区数量：114
+INFO:root:开始检查并归档表 sigen_device.device_scheduling_strategy_history
+INFO:root:正在读取表 sigen_device.device_scheduling_strategy_history 的配置信息
+INFO:root:表 sigen_device.device_scheduling_strategy_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.device_scheduling_strategy_history 的分区数量
+INFO:root:表 sigen_device.device_scheduling_strategy_history 当前的分区数量：180
+INFO:root:表 sigen_device.device_scheduling_strategy_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.electricity_price
+INFO:root:正在读取表 sigen_device.electricity_price 的配置信息
+INFO:root:表 sigen_device.electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.electricity_price 的分区数量
+INFO:root:表 sigen_device.electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.manually_electricity_price
+INFO:root:正在读取表 sigen_device.manually_electricity_price 的配置信息
+INFO:root:表 sigen_device.manually_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.manually_electricity_price 的分区数量
+INFO:root:表 sigen_device.manually_electricity_price 当前的分区数量：180
+INFO:root:表 sigen_device.manually_electricity_price 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.pv_prediction_history
+INFO:root:正在读取表 sigen_device.pv_prediction_history 的配置信息
+INFO:root:表 sigen_device.pv_prediction_history 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.pv_prediction_history 的分区数量
+INFO:root:表 sigen_device.pv_prediction_history 当前的分区数量：180
+INFO:root:表 sigen_device.pv_prediction_history 归档完成。当前分区数量：180
+INFO:root:开始检查并归档表 sigen_device.station_electricity_price
+INFO:root:正在读取表 sigen_device.station_electricity_price 的配置信息
+INFO:root:表 sigen_device.station_electricity_price 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_electricity_price 的分区数量
+INFO:root:表 sigen_device.station_electricity_price 当前的分区数量：107
+INFO:root:表 sigen_device.station_electricity_price 归档完成。当前分区数量：107
+INFO:root:开始检查并归档表 sigen_device.station_statistics_day
+INFO:root:正在读取表 sigen_device.station_statistics_day 的配置信息
+INFO:root:表 sigen_device.station_statistics_day 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_day 的分区数量
+INFO:root:表 sigen_device.station_statistics_day 当前的分区数量：117
+INFO:root:表 sigen_device.station_statistics_day 归档完成。当前分区数量：117
+INFO:root:开始检查并归档表 sigen_device.station_statistics_hour
+INFO:root:正在读取表 sigen_device.station_statistics_hour 的配置信息
+WARNING:root:警告：无法读取表 sigen_device.station_statistics_hour 的配置或配置无效。使用默认值：保留180天，分区字段为 'date'。
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_hour 的分区数量
+ERROR:root:处理表 sigen_device.station_statistics_hour 时出错：(1064, "Getting analyzing error. Detail message: Column 'date' cannot be resolved.")
+INFO:root:开始检查并归档表 sigen_device.station_statistics_min
+INFO:root:正在读取表 sigen_device.station_statistics_min 的配置信息
+INFO:root:表 sigen_device.station_statistics_min 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_min 的分区数量
+INFO:root:表 sigen_device.station_statistics_min 当前的分区数量：132
+INFO:root:表 sigen_device.station_statistics_min 归档完成。当前分区数量：132
+INFO:root:开始检查并归档表 sigen_device.station_statistics_month
+INFO:root:正在读取表 sigen_device.station_statistics_month 的配置信息
+INFO:root:表 sigen_device.station_statistics_month 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_month 的分区数量
+INFO:root:表 sigen_device.station_statistics_month 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_month 归档完成。当前分区数量：5
+INFO:root:开始检查并归档表 sigen_device.station_statistics_year
+INFO:root:正在读取表 sigen_device.station_statistics_year 的配置信息
+INFO:root:表 sigen_device.station_statistics_year 的配置：保留天数 = 180, 分区字段 = dt
+INFO:root:正在连接到 StarRocks 数据库
+INFO:root:正在获取表 sigen_device.station_statistics_year 的分区数量
+INFO:root:表 sigen_device.station_statistics_year 当前的分区数量：5
+INFO:root:表 sigen_device.station_statistics_year 归档完成。当前分区数量：5
+INFO:root:2024-11-08 所有表的归档过程完成
