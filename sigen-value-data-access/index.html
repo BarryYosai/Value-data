@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigen价值数据归档平台</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #2e2e2e;
+            color: #fff;
+        }
+
+        #sidebar {
+            width: 200px;
+            background-color: #1f1f1f;
+            height: 100vh;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+
+        #content {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .menu-item {
+            padding: 15px;
+            margin: 10px 0;
+            cursor: pointer;
+            background-color: #333;
+            border-radius: 5px;
+            text-align: center;
+            color: #ddd;
+        }
+
+        .menu-item:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #logo {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        #logo img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ddd;
+        }
+
+        form {
+            margin: 20px 0;
+        }
+
+        .input-field {
+            margin: 10px 0;
+            color: #fff;
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        .input-field input {
+            padding: 8px;
+            width: 60%;
+            background-color: #555;
+            border: none;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .input-field label {
+            width: 20%;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        .example {
+            color: #bbb;
+            font-size: 12px;
+            margin-left: calc(20% + 10px);
+            margin-top: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #log-container {
+            background-color: #333;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        #steps {
+            margin-bottom: 20px;
+        }
+
+        .step {
+            margin-bottom: 10px;
+        }
+
+        #detailed-logs {
+            display: none;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        #toggle-log {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            cursor: pointer;
+            border: none;
+            margin-top: 10px;
+        }
+
+        .success-message {
+            color: #4CAF50;
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        #archive-library {
+            margin-top: 20px;
+        }
+
+        #archive-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            color: #ddd;
+            table-layout: fixed;
+        }
+
+        #archive-table th, #archive-table td {
+            border: 1px solid #555;
+            padding: 8px;
+            text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        #archive-table th {
+            background-color: #333;
+        }
+
+        #archive-table th:nth-child(1), #archive-table td:nth-child(1) { width: 25%; }
+        #archive-table th:nth-child(2), #archive-table td:nth-child(2) { width: 35%; }
+        #archive-table th:nth-child(3), #archive-table td:nth-child(3) { width: 5%; }
+        #archive-table th:nth-child(4), #archive-table td:nth-child(4) { width: 25%; }
+        #archive-table th:nth-child(5), #archive-table td:nth-child(5) { width: 5%; }
+        #archive-table th:nth-child(6), #archive-table td:nth-child(6) { width: 5%; }
+
+        #archive-table td:hover {
+            position: relative;
+            overflow: visible;
+            white-space: normal;
+            z-index: 1;
+        }
+
+        #archive-table td:hover::after {
+            content: attr(data-full-text);
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: auto;
+            min-width: 100%;
+            background-color: #333;
+            padding: 5px;
+            border: 1px solid #555;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            white-space: normal;
+            word-wrap: break-word;
+            z-index: 2;
+        }
+
+        #refresh-archive {
+            margin-bottom: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #refresh-archive:hover {
+            background-color: #45a049;
+        }
+
+        #periodic-archive-info {
+            margin-bottom: 20px;
+        }
+
+        .green-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        #archive-dates {
+            margin-top: 20px;
+        }
+
+        #archive-dates-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #archive-dates-table th, #archive-dates-table td {
+            border: 1px solid #555;
+            padding: 8px;
+            text-align: left;
+            color: #ddd;  /* 使用浅色文本 */
+        }
+
+        #archive-dates-table th {
+            background-color: #333;  /* 深色背景 */
+        }
+
+        #archive-dates h3 {
+            color: #ddd;  /* 确保标题文本可见 */
+        }
+
+
+        #pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .pagination-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="sidebar">
+        <div id="logo">
+            <img src="../src/logo.png" alt="Sigen Logo">
+        </div>
+        <h2>功能菜单</h2>
+        <div class="menu-item active" onclick="showContent('initial-archive')">初始归档</div>
+        <div class="menu-item" onclick="showContent('periodic-archive')">定期归档</div>
+        <div class="menu-item" onclick="showContent('field-management')">字段管理</div>
+        <div class="menu-item" onclick="showContent('archive-library')">档案馆</div>
+        <div class="menu-item" onclick="showContent('snapshot')">周期快照</div>
+    </div>
+
+    <div id="content">
+        <h1>Sigen价值数据归档平台</h1>
+
+        <!-- 初始归档模块 -->
+        <div id="initial-archive">
+            <h2>初始归档</h2>
+            <form id="archive-form">
+                <div class="input-field">
+                    <label for="table_name">请输入要归档的表名:</label>
+                    <input type="text" id="table_name" name="table_name" required>
+                </div>
+                <div class="example">示例: sigen_device.device_pack_statistics_sec_test</div>
+                <div class="input-field">
+                    <label for="partition_column">请输入分区字段名:</label>
+                    <input type="text" id="partition_column" name="partition_column" required>
+                </div>
+                <div class="example">示例: dt</div>
+                <div class="input-field">
+                    <label for="selected_columns">请输入要归档的字段（以逗号分隔）:</label>
+                    <input type="text" id="selected_columns" name="selected_columns" required>
+                </div>
+                <div class="example">示例: station_id,record_time,max_voltage,min_voltage,soc等</div>
+                <div class="input-field">
+                    <label for="retention_days">请输入要保留的分区数据范围（天）:</label>
+                    <input type="number" id="retention_days" name="retention_days" required value="180">
+                </div>
+                <div class="example">默认值为180天</div>
+                <button type="submit">开始归档</button>
+            </form>
+
+            <!-- 归档过程 -->
+            <div id="log-container">
+                <h3>归档过程:</h3>
+                <div id="steps"></div>
+                <button id="toggle-log">展开查看详细日志</button>
+                <div id="detailed-logs"></div>
+            </div>
+        </div>
+
+        <div id="periodic-archive" style="display: none;">
+            <h2>定期归档</h2>
+            <div id="archive-dates">
+                <h3>归档检查日期</h3>
+                <table id="archive-dates-table">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- 日期列表将通过JavaScript动态填充 -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="log-content" style="display: none;">
+                <h3>日志内容 <button id="close-log" class="green-button">收起日志</button></h3>
+                <pre id="log-text"></pre>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="field-management" style="display: none;">
+            <h2>字段管理</h2>
+            <!-- 这里可以添加字段管理的功能 -->
+        </div>
+
+        <!-- 档案馆模块 -->
+        <div id="archive-library" style="display: none;">
+            <h2>档案馆</h2>
+            <button id="refresh-archive">刷新档案馆</button>
+            <table id="archive-table">
+                <thead>
+                    <tr>
+                        <th>表名</th>
+                        <th>价值数据字段</th>
+                        <th>分区字段</th>
+                        <th>外部表名</th>
+                        <th>StarRocks内保留天数</th>
+                        <th>初次归档日期</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 表格内容将通过 JavaScript 动态填充 -->
+                </tbody>
+            </table>
+        </div>
+
+         <!-- 周期快照模块 -->
+        <div id="snapshot" style="display: none;">
+            <h2>周期快照</h2>
+            <form id="snapshot-form">
+                <div class="input-field">
+                    <label for="snapshot_table_name">请输入表名:</label>
+                    <input type="text" id="snapshot_table_name" name="snapshot_table_name" required>
+                </div>
+                <div class="example">示例: sigen_device.device_pack_statistics_sec_test</div>
+                <div class="input-field">
+                    <label for="snapshot_columns">请输入需要存储的价值字段（以逗号分隔）:</label>
+                    <input type="text" id="snapshot_columns" name="snapshot_columns" required>
+                </div>
+                <div class="example">示例: station_id,record_time,max_voltage,min_voltage,soc等</div>
+                <button type="submit">确认</button>
+            </form>
+
+            <!-- 备份过程 -->
+            <div id="snapshot-log-container">
+               <h3>备份过程:</h3>
+               <div id="snapshot-steps"></div>
+               <button id="snapshot-toggle-log">展开查看详细日志</button>
+               <div id="snapshot-detailed-logs"></div>
+               <div id="starrocks-table-name-container" style="display: block;">
+                   <div id="starrocks-table-name"></div>
+               </div>
+            </div>
+        </div>
+
+
+    </div>
+
+<script>
+    function showContent(contentId, event) {
+        document.querySelectorAll('#content > div').forEach(div => {
+            div.style.display = 'none';
+        });
+        document.getElementById(contentId).style.display = 'block';
+
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.classList.remove('active');
+        });
+
+        if (event && event.target) {
+            event.target.classList.add('active');
+        }
+
+        if (contentId === 'archive-library') {
+            fetchArchiveData();
+        }
+        if (contentId === 'periodic-archive') {
+            loadArchiveDates();
+        }
+    }
+
+    document.getElementById('archive-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var table_name = document.getElementById('table_name').value;
+        var partition_column = document.getElementById('partition_column').value;
+        var selected_columns = document.getElementById('selected_columns').value;
+        var retention_days = document.getElementById('retention_days').value;
+
+        var data = {
+            table_name: table_name,
+            partition_column: partition_column,
+            selected_columns: selected_columns,
+            retention_days: retention_days
+        };
+
+        fetch('http://10.1.49.96:5000/start_archive', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            const stepsContainer = document.getElementById('steps');
+            const detailedLogsContainer = document.getElementById('detailed-logs');
+            stepsContainer.innerHTML = '';
+            detailedLogsContainer.innerHTML = '';
+
+            if (data.status === 'success') {
+                let externalTableName = '';
+                let remainingCount = '';
+                let dataPath = '';
+
+                data.logs.forEach(log => {
+                    if (log.includes('外部表') && log.includes('已创建')) {
+                        const match = log.match(/外部表 (\S+) 已创建，数据路径为 (s3:\/\/\S+)/);
+                        if (match) {
+                            externalTableName = match[1];
+                            dataPath = match[2];
+                        }
+                    }
+                    if (log.includes('清理后剩余数据条数:')) {
+                        remainingCount = log.split('清理后剩余数据条数:')[1].trim();
+                    }
+                });
+
+                const steps = [
+                    "归档成功，外部表已创建。",
+                    `外部表名称: ${externalTableName}`,
+                    `数据路径: ${dataPath}`,
+                    "归档校验成功，外部表和原表的记录数差异在允许范围内。",
+                    `StarRocks原表数据已清理，保留范围内分区数据的条数: ${remainingCount}`
+                ];
+
+                steps.forEach((step) => {
+                    const stepElement = document.createElement('div');
+                    stepElement.className = 'step';
+                    stepElement.textContent = step;
+                    stepsContainer.appendChild(stepElement);
+                });
+
+                data.logs.forEach(log => {
+                    const logElement = document.createElement('div');
+                    logElement.textContent = log;
+                    detailedLogsContainer.appendChild(logElement);
+                });
+
+                const successMessage = document.createElement('div');
+                successMessage.className = 'success-message';
+                successMessage.textContent = '归档成功！可在档案馆查询';
+                stepsContainer.appendChild(successMessage);
+            } else {
+                const errorElement = document.createElement('div');
+                errorElement.textContent = `Error: ${data.message}`;
+                stepsContainer.appendChild(errorElement);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            const stepsContainer = document.getElementById('steps');
+            const errorElement = document.createElement('div');
+            errorElement.textContent = `Error: ${error.message}`;
+            stepsContainer.appendChild(errorElement);
+        });
+    });
+
+    document.getElementById('toggle-log').addEventListener('click', function () {
+        const detailedLogs = document.getElementById('detailed-logs');
+        if (detailedLogs.style.display === 'none') {
+            detailedLogs.style.display = 'block';
+            this.textContent = '收起详细日志';
+        } else {
+            detailedLogs.style.display = 'none';
+            this.textContent = '展开查看详细日志';
+        }
+    });
+
+    document.getElementById('refresh-archive').addEventListener('click', function() {
+        fetchArchiveData();
+    });
+
+    function fetchArchiveData() {
+        fetch('http://10.1.49.96:5000/get_archive_data')
+            .then(response => response.json())
+            .then(data => {
+                updateArchiveTable(data);
+            })
+            .catch(error => {
+                console.error('Error fetching archive data:', error);
+            });
+    }
+
+    function updateArchiveTable(data) {
+        const tableBody = document.querySelector('#archive-table tbody');
+        tableBody.innerHTML = '';
+        data.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td data-full-text="${item.table_name}">${item.table_name}</td>
+                <td data-full-text="${item.value_columns}">${item.value_columns}</td>
+                <td data-full-text="${item.partition_column}">${item.partition_column}</td>
+                <td data-full-text="${item.external_table_name}">${item.external_table_name}</td>
+                <td data-full-text="${item.retention_days}">${item.retention_days}</td>
+                <td data-full-text="${item.archive_date}">${item.archive_date}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+    }
+
+    document.getElementById('snapshot-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var table_name = document.getElementById('snapshot_table_name').value;
+        var selected_columns = document.getElementById('snapshot_columns').value;
+
+        var data = {
+            table_name: table_name,
+            selected_columns: selected_columns
+        };
+
+        fetch('http://10.1.49.96:5000/start_periodic_snapshot', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            const stepsContainer = document.getElementById('snapshot-steps');
+            const detailedLogsContainer = document.getElementById('snapshot-detailed-logs');
+            stepsContainer.innerHTML = '';
+            detailedLogsContainer.innerHTML = '';
+
+            if (data.status === 'success') {
+                let snapshotTableName = data.starrocks_table_name || '';
+
+                if (snapshotTableName) {
+                    const steps = [
+                        "备份成功，快照表已创建。",
+                        `StarRocks 快照表名: ${snapshotTableName}`
+                    ];
+
+                    steps.forEach((step) => {
+                        const stepElement = document.createElement('div');
+                        stepElement.className = 'step';
+                        stepElement.textContent = step;
+                        stepsContainer.appendChild(stepElement);
+                    });
+                }
+
+                data.logs.forEach(log => {
+                    const logElement = document.createElement('div');
+                    logElement.textContent = log;
+                    detailedLogsContainer.appendChild(logElement);
+                });
+
+                const successMessage = document.createElement('div');
+                successMessage.className = 'success-message';
+                successMessage.textContent = '备份成功！';
+                stepsContainer.appendChild(successMessage);
+            } else {
+                const errorElement = document.createElement('div');
+                errorElement.textContent = `Error: ${data.message}`;
+                stepsContainer.appendChild(errorElement);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            const stepsContainer = document.getElementById('snapshot-steps');
+            const errorElement = document.createElement('div');
+            errorElement.textContent = `Error: ${error.message}`;
+            stepsContainer.appendChild(errorElement);
+        });
+    });
+
+    document.getElementById('snapshot-toggle-log').addEventListener('click', function () {
+        const detailedLogs = document.getElementById('snapshot-detailed-logs');
+        if (detailedLogs.style.display === 'none') {
+            detailedLogs.style.display = 'block';
+            this.textContent = '收起详细日志';
+        } else {
+            detailedLogs.style.display = 'none';
+            this.textContent = '展开查看详细日志';
+        }
+    });
+
+    function loadArchiveDates() {
+        fetch('http://10.1.49.96:5000/get_archive_dates')
+            .then(response => response.json())
+            .then(dates => {
+                const tableBody = document.querySelector('#archive-dates-table tbody');
+                tableBody.innerHTML = '';
+                dates.forEach(date => {
+                    if (/^\d{4}-\d{2}-\d{2}$/.test(date.replace('INFO:root:', ''))) {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${date.replace('INFO:root:', '')}</td>
+                            <td><button class="green-button" onclick="viewLog('${date}')">查看日志</button></td>
+                        `;
+                        tableBody.appendChild(row);
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching archive dates:', error);
+            });
+    }
+
+function viewLog(date) {
+    fetch(`http://10.1.49.96:5000/get_log/${date}`)
+            .then(response => response.text())
+            .then(log => {
+                const logContent = document.getElementById('log-content');
+                const logText = document.getElementById('log-text');
+                // 移除每行开头的 "INFO:root:" 前缀
+                const cleanedLog = log.split('\n').map(line => line.replace(/^INFO:root:/, '')).join('\n');
+                logText.textContent = cleanedLog;
+                logContent.style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Error fetching log:', error);
+            });
+    }
+
+    // 添加收起日志的功能
+    document.getElementById('close-log').addEventListener('click', function() {
+        document.getElementById('log-content').style.display = 'none';
+    });
+
+    // 在页面加载时调用此函数
+    window.onload = function() {
+        // 初始化时显示初始归档内容
+        showContent('initial-archive');
+    };
+</script>
+
+
+</body>
+</html>
